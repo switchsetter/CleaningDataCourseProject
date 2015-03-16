@@ -11,9 +11,11 @@
 	 STANDING
 	 LAYING
 ## 
-	 The following variables where extracted from the original data set
-	 they are Mean value and Standard deviation for each measurement averaged 
-	 for each variable for each activity and each subject.
+
+#####The following variables where extracted from the original data set
+#####they are Mean value and Standard deviation for each measurement averaged 
+#####for each variable for each activity and each subject.
+
 ####Average of tBodyAcc-mean()-X    
 ####Average of tBodyAcc-mean()-Y    
 ####Average of tBodyAcc-mean()-Z      
