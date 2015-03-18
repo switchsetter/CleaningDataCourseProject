@@ -1,7 +1,8 @@
-##Variables:
+##Output of run_analysis.R:
 
 ####Subject
-	 identifies the subject who performed the activity for each sample. Range is from 1 to 30.
+     Range is from 1 to 30.
+	 Identifies the subject who performed the activity for each sample. 
 
 ####Activities
 	 WALKING
@@ -12,9 +13,8 @@
 	 LAYING
 ## 
 
-#####The following variables where extracted from the original data set
-#####they are Mean value and Standard deviation for each measurement averaged 
-#####for each variable for each activity and each subject.
+######The following variables where extracted from the original data set;<br>https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip<br>renamed by prefixing with "Average of"<br>they are Mean value and Standard deviation for each measurement<br>and averaged for each variable for each activity and each subject.
+
 
 ####Average of tBodyAcc-mean()-X    
 ####Average of tBodyAcc-mean()-Y    
