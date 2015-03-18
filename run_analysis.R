@@ -13,9 +13,11 @@
 ## Get data from:
 ## https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 ## Extract into your working directory
-## load library("dplyr")
+##    should end up with a directory: UCI HAR Dataset
+## load library(dplyr)
 ## Have this file in your working directory
 ## run run_analysis()
+## load output read.table("data_out.txt", header = TRUE)
 
 run_analysis <- function(){
       
@@ -107,6 +109,8 @@ run_analysis <- function(){
       
       
      createDataSet(act_labels,dataT,cols2,cols3) 
+     
+     cat("DONE you can load output by: read.table('data_out.txt', header = TRUE)")
          
 }
 
